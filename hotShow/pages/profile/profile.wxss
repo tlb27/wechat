@@ -1,0 +1,16 @@
+/* pages/profile/profile.wxss */
+
+.choose-upload{
+   background-color: pink;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.choose-upload .upload-img{
+  width:220rpx;
+  height: 220rpx;
+  border-radius: 50%;
+  border: 10rpx solid rgba(0,0,0,.3)
+}

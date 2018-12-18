@@ -1,0 +1,30 @@
+<!--pages/home/home.wxml-->
+<!--轮播图-->
+ <view  class="slider">
+  <swiper autoplay interval="3500" indicator-dots>
+    <block wx:for="{{list}}" wx:key="item.id">
+    <swiper-item>
+      <image src="{{item.img_url}}" mode="aspectFill" lazy-load></image>
+    </swiper-item> 
+    </block>
+  </swiper>
+ </view>
+ <!-- 推荐 -->
+ <view class="gussess">
+    <text>给你最优质的推荐</text>
+ </view>
+<!--九宫格-->
+<view class="index-nav">
+  <block wx:for="{{navitems}}" wx:key="item.id">
+  <view class="nav-item">
+    <image src="{{item.img_url}}" mode="aspectFill" lazy-load bindtap="handleJumpNews" data-id="{{item.id}}"></image>
+    <text>{{item.title}}</text>
+  </view>
+  </block>
+</view>
+<!--分割块-->
+<view class="divider"></view>
+<!--按钮-->
+
+
+

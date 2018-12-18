@@ -1,0 +1,28 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "vue_app_00\r vue_app_server\r   app.js  服务器入口程序\r   public  静态资源 \r   pool.js 连接池",
+  "main": "app.js",
+  "dependencies": {
+    "_babel-plugin-transform-remove-strict-mode@0.0.2@babel-plugin-transform-remove-strict-mode": "^0.0.2",
+    "_vuex@3.0.1@vuex": "^3.0.1",
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "mysql": "^2.15.0",
+    "session": "^0.1.0",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.27.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
